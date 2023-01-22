@@ -1,2 +1,3 @@
 markdown: GFM
-theme: ./docs/assets/css/style.scss
+remote_theme: allejo/jekyll-docs-theme
+color: dark
