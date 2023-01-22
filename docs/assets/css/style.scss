@@ -1,12 +1,15 @@
+$bgcolor: black;
+$textcolor: white;
+$fontsize: 14px;
+$width: 540px;
+
+
 body {
-	background-color: black;
-}
-p {
-	margin-bottom: 100px;
-	margin-left: 80px;
-	margin-right: 150px;
-	margin-top: 100px;
-}
+  background-color: $bgcolor;
+  color: $textcolor;
+  font-size: $fontsize;
+  width: $width;
+}                  
 /* .center {
 	text-align: center;
 	border: 9px red;
