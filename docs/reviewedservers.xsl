@@ -1,13 +1,10 @@
-<xsl:stylesheet version="1.0"
- xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
- xmlns="http://www.w3.org/TR/xhtml1/strict">
-<listing>
-<para>none</para>
-<para>none</para>
-<para>none</para>
-<para>none</para>
-</listing>
-<xsl:output
-   method="xml"
-   indent="yes"/>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"        
+                version="1.0">
+  <xsl:output method="html"/>
+   <xsl:template match="listing">
+    <html><body>
+      <xsl:apply-templates/>
+    </body></html>
+  </xsl:template>
+
 </xsl:stylesheet>

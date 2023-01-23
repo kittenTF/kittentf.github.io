@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listing>
+<page1>index.md</page1>
+<page2>reviewedservers.xml</page2>
+<page3>reviewedservers.xsl</page3>
+<page4>beta/index.html</page4>
+<page5>beta/main.md</page5>
+<page6>assets/css/style.css</page6>
+<page7>assets/css/style.scss</page7>
+</listing>
+<root>
+<page0>./config.yml</page0>
+<page1>./list.sml</page1>
+<page2>listing.xml</page2>
