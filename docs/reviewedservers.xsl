@@ -2,9 +2,9 @@
                 version="1.0">
   <xsl:output method="html"/>
    <xsl:template match="listing">
-    <html><body>
+     <p></p>
       <xsl:apply-templates/>
-    </body></html>
+     <p></p>
   </xsl:template>
 
 </xsl:stylesheet>
